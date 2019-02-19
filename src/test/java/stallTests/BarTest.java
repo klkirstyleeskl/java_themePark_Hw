@@ -47,6 +47,6 @@ public class BarTest {
         bar.setParkingSpot(21);
         assertEquals(21, bar.getParkingSpot());
     }
-    
+
 
 }

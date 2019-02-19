@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bc48e4d-4e47-4ab3-b371-1083055fd16a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/stall/Bar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stall/Bar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/attraction/ITicketed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Visitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/attraction/Attraction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/attraction/Attraction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/attraction/Rollercoaster.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/VisitorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/themeParkOperations/Visitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/attraction/Attraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/attraction/Attraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/attraction/Rollercoaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/attraction/Rollercoaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/VisitorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/themeParkOperatonsTests/VisitorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/attractionTests/RollercoasterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/attractionTests/RollercoasterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stallTests/BarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stallTests/BarTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,23 +39,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="20" />
+          <entry key="java" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="20" />
+          <entry key="JAVA" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="1136" />
+          <entry key="java" value="1485" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1136" />
+          <entry key="JAVA" value="1485" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -56,12 +66,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/attraction/Attraction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="163">
+              <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
               <folding>
                 <element signature="e#118#119#0" expanded="true" />
                 <element signature="e#150#151#0" expanded="true" />
-                <element signature="e#181#182#0" expanded="true" />
                 <element signature="e#208#209#0" expanded="true" />
                 <element signature="e#248#249#0" expanded="true" />
                 <element signature="e#280#281#0" expanded="true" />
@@ -74,48 +83,30 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/attraction/Rollercoaster.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
               <folding>
                 <element signature="e#107#108#0" expanded="true" />
                 <element signature="e#134#135#0" expanded="true" />
+                <element signature="e#205#206#0" expanded="true" />
+                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#325#326#0" expanded="true" />
+                <element signature="e#349#350#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/attractionTests/RollercoasterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="7" />
+            <state relative-caret-position="208">
+              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#261#262#0" expanded="true" />
                 <element signature="e#311#312#0" expanded="true" />
                 <element signature="e#370#371#0" expanded="true" />
                 <element signature="e#400#401#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/stall/Stall.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-              <folding>
-                <element signature="e#338#339#0" expanded="true" />
-                <element signature="e#365#366#0" expanded="true" />
-                <element signature="e#405#406#0" expanded="true" />
-                <element signature="e#437#438#0" expanded="true" />
-                <element signature="e#473#474#0" expanded="true" />
-                <element signature="e#505#506#0" expanded="true" />
-                <element signature="e#555#556#0" expanded="true" />
-                <element signature="e#597#598#0" expanded="true" />
-                <element signature="e#632#633#0" expanded="true" />
-                <element signature="e#666#667#0" expanded="true" />
-                <element signature="e#717#718#0" expanded="true" />
-                <element signature="e#763#764#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -154,11 +145,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/stallTests/BarTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            <state relative-caret-position="286">
+              <caret line="51" column="1" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#208#209#0" expanded="true" />
@@ -188,12 +179,42 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/VisitorTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/themeParkOperatonsTests/VisitorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="3" selection-end-column="44" />
+            <state relative-caret-position="150">
+              <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/attraction/ITicketed.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/themeParkOperations/Visitor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+              <folding>
+                <element signature="e#363#364#0" expanded="true" />
+                <element signature="e#393#394#0" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#499#500#0" expanded="true" />
+                <element signature="e#535#536#0" expanded="true" />
+                <element signature="e#567#568#0" expanded="true" />
+                <element signature="e#595#596#0" expanded="true" />
+                <element signature="e#637#638#0" expanded="true" />
+                <element signature="e#671#672#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -205,6 +226,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -508,19 +530,22 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Visitor.java" />
         <option value="$PROJECT_DIR$/src/test/java/VisitorTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/attraction/Attraction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/attraction/Rollercoaster.java" />
-        <option value="$PROJECT_DIR$/src/test/java/attractionTests/RollercoasterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/stall/Stall.java" />
         <option value="$PROJECT_DIR$/src/main/java/stall/CandyFloss.java" />
         <option value="$PROJECT_DIR$/src/test/java/stallTests/CandyFlossTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/stall/Bar.java" />
         <option value="$PROJECT_DIR$/src/test/java/stallTests/BarTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/themeParkOperatonsTests/VisitorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/themeParkOperations/ITicketed.java" />
+        <option value="$PROJECT_DIR$/src/main/java/attraction/Attraction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/attraction/ITicketed.java" />
+        <option value="$PROJECT_DIR$/src/main/java/attraction/Rollercoaster.java" />
+        <option value="$PROJECT_DIR$/src/test/java/attractionTests/RollercoasterTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-52" />
+    <option name="x" value="-35" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="672" />
@@ -575,6 +600,14 @@
               <item name="ThemePark" type="b2602c69:ProjectViewProjectNode" />
               <item name="themeParkLab" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="themeParkOperations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ThemePark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="themeParkLab" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -600,6 +633,14 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="stallTests" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ThemePark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="themeParkLab" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="themeParkOperatonsTests" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -609,7 +650,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550591107987" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550592776733" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -623,35 +664,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BarTest">
-    <configuration name="BarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ThemePark_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stallTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="stallTests" />
-      <option name="MAIN_CLASS_NAME" value="stallTests.BarTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CandyFlossTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ThemePark_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stallTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="stallTests" />
-      <option name="MAIN_CLASS_NAME" value="stallTests.CandyFlossTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.RollercoasterTest">
     <configuration name="RollercoasterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ThemePark_test" />
       <extension name="coverage">
@@ -666,38 +679,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VisitorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RollercoasterTest.canGetDefaultPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ThemePark_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VisitorTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VisitorTest.canSetHeight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ThemePark_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VisitorTest" />
-      <option name="METHOD_NAME" value="canSetHeight" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="attractionTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="attractionTests" />
+      <option name="MAIN_CLASS_NAME" value="attractionTests.RollercoasterTest" />
+      <option name="METHOD_NAME" value="canGetDefaultPrice" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RollercoasterTest.canGetPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ThemePark_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="attractionTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="attractionTests" />
+      <option name="MAIN_CLASS_NAME" value="attractionTests.RollercoasterTest" />
+      <option name="METHOD_NAME" value="canGetPrice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RollercoasterTest.canGetVisitorPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ThemePark_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="attractionTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="attractionTests" />
+      <option name="MAIN_CLASS_NAME" value="attractionTests.RollercoasterTest" />
+      <option name="METHOD_NAME" value="canGetVisitorPrice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VisitorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ThemePark_test" />
+      <option name="PACKAGE_NAME" value="themeParkOperatonsTests" />
+      <option name="MAIN_CLASS_NAME" value="themeParkOperatonsTests.VisitorTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.VisitorTest.canSetHeight" />
       <item itemvalue="JUnit.VisitorTest" />
+      <item itemvalue="JUnit.RollercoasterTest.canGetPrice" />
+      <item itemvalue="JUnit.RollercoasterTest.canGetDefaultPrice" />
+      <item itemvalue="JUnit.RollercoasterTest.canGetVisitorPrice" />
       <item itemvalue="JUnit.RollercoasterTest" />
-      <item itemvalue="JUnit.CandyFlossTest" />
-      <item itemvalue="JUnit.BarTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BarTest" />
-        <item itemvalue="JUnit.CandyFlossTest" />
         <item itemvalue="JUnit.RollercoasterTest" />
+        <item itemvalue="JUnit.RollercoasterTest.canGetVisitorPrice" />
+        <item itemvalue="JUnit.RollercoasterTest.canGetDefaultPrice" />
+        <item itemvalue="JUnit.RollercoasterTest.canGetPrice" />
         <item itemvalue="JUnit.VisitorTest" />
-        <item itemvalue="JUnit.VisitorTest.canSetHeight" />
       </list>
     </recent_temporary>
   </component>
@@ -715,12 +766,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="VisitorTest_canGetAge - 2019.02.19 at 15h 21m 55s.xml">
-      <configuration name="VisitorTest.canGetAge" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VisitorTest_canSetAge - 2019.02.19 at 15h 22m 36s.xml">
-      <configuration name="VisitorTest.canSetAge" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="VisitorTest_canGetHeight - 2019.02.19 at 15h 23m 50s.xml">
       <configuration name="VisitorTest.canGetHeight" configurationId="JUnit" />
     </history-entry>
@@ -745,9 +790,15 @@
     <history-entry file="CandyFlossTest - 2019.02.19 at 15h 40m 40s.xml">
       <configuration name="CandyFlossTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BarTest - 2019.02.19 at 15h 45m 10s.xml">
+      <configuration name="BarTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VisitorTest - 2019.02.19 at 15h 49m 26s.xml">
+      <configuration name="VisitorTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-52" y="23" width="1280" height="672" extended-state="0" />
+    <frame x="-35" y="23" width="1280" height="672" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -761,10 +812,10 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Build" weight="0.32931036" />
-      <window_info anchor="bottom" id="Messages" weight="0.3298791" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.3275862" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3275862" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32586208" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -784,37 +835,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Visitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/VisitorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/stall/Stall.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
@@ -836,19 +856,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/attractionTests/RollercoasterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="7" />
-          <folding>
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/stall/CandyFloss.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -856,32 +863,6 @@
           <folding>
             <element signature="e#126#127#0" expanded="true" />
             <element signature="e#177#178#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/attraction/Attraction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="e#118#119#0" expanded="true" />
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/attraction/Rollercoaster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#107#108#0" expanded="true" />
-            <element signature="e#134#135#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -917,8 +898,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stallTests/BarTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        <state relative-caret-position="286">
+          <caret line="51" column="1" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#208#209#0" expanded="true" />
@@ -929,6 +910,85 @@
             <element signature="e#597#598#0" expanded="true" />
             <element signature="e#775#776#0" expanded="true" />
             <element signature="e#829#830#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/themeParkOperatonsTests/VisitorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/themeParkOperations/Visitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/attraction/Attraction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="e#118#119#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/attraction/ITicketed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/attraction/Rollercoaster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="e#107#108#0" expanded="true" />
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/attractionTests/RollercoasterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
           </folding>
         </state>
       </provider>

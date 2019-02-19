@@ -1,3 +1,5 @@
+package themeParkOperations;
+
 public class Visitor {
 
     private int age;
